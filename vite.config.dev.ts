@@ -28,7 +28,7 @@ export default defineConfig({
   },
   build: {
     sourcemap: false,
-    outDir: '../../backup/node_modules/@femike/swagger-protect/ui/dist',
+    outDir: '../../backup/node_modules/@femike/swagger-protect-ui/dist',
   },
   /* remove the need to specify .vue files https://vitejs.dev/config/#resolve-extensions
   resolve: {
