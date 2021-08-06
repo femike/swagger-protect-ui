@@ -1,0 +1,1 @@
+import{r as a,o as e,c as t,w as o,f as r}from"./vendor.050a8a0d.js";const n={name:"BasicLayout"};n.render=function(n,s,u,f,l,c){const d=a("router-view"),i=a("q-page-container"),p=a("q-layout");return e(),t(p,{view:"hHh lpR fFf"},{default:o((()=>[r(i,null,{default:o((()=>[r(d)])),_:1})])),_:1})};export{n as default};

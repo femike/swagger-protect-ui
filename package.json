@@ -4,11 +4,11 @@
   "description": "protect swagger openapi ui",
   "main": "dist/index.html",
   "scripts": {
-    "dev": "vite",
+    "dev": "export VITE_VUE_ROUTER_MODE=history && vite",
     "prebuild": "rm -rf ../../backup/node_modules/@femike/swagger-protect/ui/dist",
-    "build": "VITE_VUE_ROUTER_MODE=history vue-tsc --noEmit && vite build --base=/login-ap --root=../../backup/node_modules/@femike/swagger-protect/ui/dist",
+    "build": "export VITE_VUE_ROUTER_MODE=history && vue-tsc --noEmit && vite build -c=vite.config.dev.ts",
     "prepublish": "rm -rf ./dist",
-    "publish": "vue-tsc --noEmit && vite build --base=/login-api --root=./dist",
+    "publish": "vue-tsc --noEmit && vite build --base=/login-api",
     "serve": "vite preview"
   },
   "repository": {

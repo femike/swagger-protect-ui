@@ -1,12 +1,17 @@
 # source
 src
 index.ts
+index.html
 package-lock.json
 tsconfig.json
 tsconfig-check.json
 tsconfig.build.json
+vite.config.dev.ts
+vite.config.ts
+vue.config.js
 jest.config.ts
 .prettierrc
+public
 
 # misc
 .DS_Store

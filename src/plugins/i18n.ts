@@ -20,7 +20,7 @@ export function createI18N(app: App) {
   // @todo want work
   // const i18n = createI18n<{ messages: MessageSchema }, 'en-US'>({
   const i18n = createI18n({
-    locale: Quasar.lang.getLocale(),
+    locale: 'en-US', //Quasar.lang.getLocale(),
     fallbackLocale: 'en-US',
     availableLocales: [...Object.keys(messages)],
     messages,

@@ -5,7 +5,7 @@
 <p align="center">
 <a href="https://www.npmjs.com/org/femike"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/org/femike"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/org/femike"><img src="https://img.shields.io/npm/dm/@femike/swagger-protect.svg" alt="NPM Downloads" /></a>
+<a href="https://www.npmjs.com/org/femike"><img src="https://img.shields.io/npm/dm/@femike/swagger-protect-ui.svg" alt="NPM Downloads" /></a>
 <!-- <a href="#"><img src="https://img.shields.io/badge/donate-PayPal-ff3f59.svg" alt="Donate PayPal" /></a> -->
 <a href="https://yoomoney.ru/to/41001486944398/250"><img src="https://img.shields.io/badge/donate-%D0%AEMoney-blueviolet.svg" alt="Donate ЮMoney" /></a>
 </p>
@@ -23,6 +23,8 @@ $ yarn add @femike/swagger-protect-ui
 # User Interface For Module Swagger Protect
 
 See: [@femike/swagger-protect](https://www.npmjs.com/package/@femike/swagger-protect)
+
+<p align="center"><img width="540" src="images/screen_1.png"></img></p>
 
 ## Vue 3 + Typescript + Vite
 
