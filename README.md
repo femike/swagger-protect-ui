@@ -26,6 +26,8 @@ See: [@femike/swagger-protect](https://www.npmjs.com/package/@femike/swagger-pro
 
 <p align="center"><img width="540" src="images/screen_1.png"></img></p>
 
+### View Example Interface on [https://femike.github.io/swagger-protect-ui/](https://femike.github.io/swagger-protect-ui/)
+
 ## Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
