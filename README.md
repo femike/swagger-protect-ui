@@ -24,7 +24,7 @@ $ yarn add @femike/swagger-protect-ui
 
 See: [@femike/swagger-protect](https://www.npmjs.com/package/@femike/swagger-protect)
 
-<p align="center"><img width="540" src="https://github.com/femike/swagger-protect-ui/blob/main/images/screen_1.png"></img></p>
+<p align="center"><img width="540" src="images/screen_1.png"></img></p>
 
 ## Vue 3 + Typescript + Vite
 
