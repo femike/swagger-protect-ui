@@ -1,0 +1,57 @@
+{
+  "name": "@femike/swagger-protect-ui",
+  "version": "1.0.0",
+  "description": "protect swagger openapi ui",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "rm -rf ../../backup/node_modules/@femike/swagger-protect/ui/dist",
+    "build": "VITE_VUE_ROUTER_MODE=history vue-tsc --noEmit && vite build --base=/login-ap --root=../../backup/node_modules/@femike/swagger-protect/ui/dist",
+    "prepublish": "rm -rf ./dist",
+    "publish": "vue-tsc --noEmit && vite build --base=/login-api --root=./dist",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femike/swagger-protect-ui.git"
+  },
+  "keywords": [
+    "typescript",
+    "swagger",
+    "protect",
+    "guard",
+    "fastify",
+    "ui",
+    "nestjs",
+    "nest",
+    "express",
+    "openapi",
+    "frontend",
+    "vue",
+    "quasar"
+  ],
+  "author": "femike <femike@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/femike/swagger-protect-ui/issues"
+  },
+  "homepage": "https://github.com/femike/swagger-protect-ui#readme",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "quasar": "^2.0.0-rc.3",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.10",
+    "@intlify/vite-plugin-vue-i18n": "^2.4.0",
+    "@quasar/extras": "^1.10.9",
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
